@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ObjectsNullSafe",
+            "request": "launch",
+            "mainClass": "etc.objects.ObjectsNullSafe",
+            "projectName": "java-grammar_1e0790a8"
+        },
+        {
+            "type": "java",
+            "name": "ObjectsUtil",
+            "request": "launch",
+            "mainClass": "etc.objects.ObjectsUtil",
+            "projectName": "java-grammar_1e0790a8"
+        },
+        {
+            "type": "java",
             "name": "ManualIterationApproach",
             "request": "launch",
             "mainClass": "string.ManualIterationApproach",
