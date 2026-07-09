@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Record_440",
+            "request": "launch",
+            "mainClass": "jep.pattern_matching.Record_440",
+            "projectName": "practice-java-grammar_f1395d97"
+        },
+        {
+            "type": "java",
+            "name": "Instanceof_394",
+            "request": "launch",
+            "mainClass": "jep.pattern_matching.Instanceof_394",
+            "projectName": "practice-java-grammar_f1395d97"
+        },
+        {
+            "type": "java",
             "name": "GathererMain",
             "request": "launch",
             "mainClass": "jep.gaterer_485.GathererMain",
