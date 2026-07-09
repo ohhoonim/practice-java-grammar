@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GathererMain",
+            "request": "launch",
+            "mainClass": "jep.gaterer_485.GathererMain",
+            "projectName": "practice-java-grammar_f1395d97"
+        },
+        {
+            "type": "java",
             "name": "ObjectsNullSafe",
             "request": "launch",
             "mainClass": "etc.objects.ObjectsNullSafe",
