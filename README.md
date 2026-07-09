@@ -1,43 +1,37 @@
-## CODE의 7가지 요소로 설명하는 Java 문법
+# Java 기본 문법과 JEP
 
-Code의 7가지 핵심요소를 중심으로 Java 문법을 설명합니다. 
+Java에서 코드를 작성할 때의 7가지 핵심요소를 중심으로 Java 문법을 설명합니다. JDK 8이후 버전의 기능사항은 grammar.jep 패키지에서 보실 수 있습니다.
 
-## CODE의 7가지 요소란
+## 변경사항 
 
-> https://youtu.be/qWZTaQPrALs
+- 2026.07
+    - JDK 25 기준으로 변경하였습니다.
+    - java 모듈 관련 예제 삭제 및 폴더 구성 변경 
 
-## Java 코딩환경 설정하기
+## 폴더 구조
 
-> https://youtu.be/k3XX7smm0yE
+```text
+/src
+ L grammar: java 기본 문법 예제들
+     L array: 배열
+     L branch: 조건문
+     L collection: 자료구조(List, Set, Map)
+     L function: 메서드와 람다식
+     L iteration: 반복문
+     L object: 객체
+     L variables: 변수
+ L jep: jdk 8 이후 주요 변경사항에 대한 해설 및 사용 예제 
+ L std: java에서 제공하는 표준 라이브러리 사용법 
+```
 
-## 7가지 요소
+## 관련 영상
 
-- 순서대로 시청하셔야 합니다. 
+- [(영상) code의 7요소](https://youtu.be/qWZTaQPrALs)
+- [(영상) Java 코딩환경 설정하기](https://youtu.be/k3XX7smm0yE)
+- [(재생목록) 자바 기초부터 OOP 디자인패턴까지](https://youtube.com/playlist?list=PLeMeDIV7bypv3fs0csaGKLRSV1xvSO_cc)
+- [(학습프로그램) JDK25로 시작하는 JAVA와 스프링부트 4](https://youtube.com/playlist?list=PLeMeDIV7bypuP8NVLkwvQIIzpRZ4MmJve&si=3AioLOm4TD91XKiR) 
 
-| 순서 | 요소명 | 패키지                             | 유튜브 영상                  |
-|------|--------|------------------------------------|------------------------------|
-| 1    | 변수   | com.ohhoonim.grammar.variable      | https://youtu.be/C6ZRfWHsn4k |
-| 2    | 배열   | com.ohhoonim.grammar.array         | https://youtu.be/5BQdDErNsoo |
-| 3    | 분기   | com.ohhoonim.grammar.branch        | https://youtu.be/8f2QJkJpGS8 |
-| 4    | 반복   | com.ohhoonim.grammar.iteration     | https://youtu.be/QuazKDEAHqI |
-| 5    | 객체   | com.ohhoonim.grammar.object        | https://youtu.be/AtCmws4s_j8 |
-| 6    | 함수   | com.ohhoonim.grammar.function      | https://youtu.be/2N5ISW4XW3Q |
-| 7    | 키와값 | com.ohhoonim.grammar.collection    | https://youtu.be/WyTBThDnxm0 |
-| 8    | enum   | com.ohhoonim.grammar.etc.enumClass | https://youtu.be/eAE8qV7iLr0 |
+### 소스코드 
+- (code) Java 기본 문법과 JEP: https://github.com/ohhoonim/java-grammar.git
+- (강의노트) JDK25로 시작하는 JAVA와 스프링부트 4: https://github.com/ohhoonim/course-java-starting-with-jdk25.git
 
-## 영상 전체 재생목록
-
-> https://youtube.com/playlist?list=PLeMeDIV7bypv3fs0csaGKLRSV1xvSO_cc
-
-## Github
-
-> https://github.com/ohhoonim/java-grammar.git
-
-
-## 오류 조치법
-
-### 기본메소드를 찾을 수 없다는 오류가 나는 경우
-
-> 클래스에서 기본 메소드를 찾을 수 없습니다. 다음 형식으로 기본 메소드를 정의하십시오.
-
-방법1) bin 폴더에서 확장자가 .class 인 파일들을 전부 지운 후 다시 실행해본다. 
